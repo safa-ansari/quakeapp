@@ -46,7 +46,7 @@ class Quake extends StatelessWidget {
 
   void _showAlertPage(BuildContext context, String message) {
     var alert = new AlertDialog(
-      title: Text('quake'),
+      title: Text('EARTHQUAKE'),
       content: Text(message),
       actions: [
         FloatingActionButton(
